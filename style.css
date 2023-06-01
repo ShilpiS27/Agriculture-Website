@@ -93,28 +93,24 @@ header{
     display: none;
 }
 .container{
-    position: relative;
+    margin-top: 220px;
     width: 100%;
-    min-height: 640px;
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
+    height: 540px !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-around !important;
+
     background: url("img/white.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow:visible;
-}
-
-.container .home-text {
-    width: 200px !important;
+    overflow:hidden;
 }
 
 .container img {
     width: 400px !important;
-    /* position: absolute;
-    bottom: -500px;
-    right: 200px; */
 }
 
 
