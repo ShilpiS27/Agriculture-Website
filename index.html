@@ -13,6 +13,13 @@
 </head>
 
 <body>
+    <div id="chat-bot">
+        <iframe
+        src='https://webchat.botframework.com/embed/healthbot-e5xjjmf?s=ArHYdTmylDg.KjIZFIEr1g7dlhaCpPuAndLtCMCzeA2Acz7OKBRHUcw'
+        style='width: 280px; min-height: 400px;position: fixed;bottom: 40px;z-index: 1500;right: 40px;border-color: rgb(70, 70, 207);'>
+    </iframe>
+    </div>
+    
     <header>
         <a href="#" class="logo"><i class='bx bxs-leaf'></i>Quality</a>
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -22,6 +29,7 @@
             <li><a href="#products">Products</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#customers">Customers</a></li>
+            <li><a href="#" onclick="toggleChatBot()">Health Bot</a></li>
         </ul>
         <div class="profile">
             <img src="img/profile.png" alt="">
@@ -90,7 +98,7 @@
             </div>
             <div class="box" box3 style="background: #faeaea;">
                 <img src="img/cow dung.png">
-                <h2>Seeds</h2>
+                <h2>Organic manure</h2>
                 <span>5+ sizes available</span>
                 <i class='bx bx-right-arrow-alt'></i>
 
@@ -261,8 +269,82 @@
                     <h3>Priyanka Trivedi</h3>
                 </div>
             </div>
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Really happy to find a site like this. Very nice and cheaper products.</p>
+                <p>Also the quality is very good. Thanks..!</p>
+                <div class="review profile">
+                    <img src="img/customer2.png" alt="">
+                    <h3>Rahul Maheshwari</h3>
+                </div>
+            </div>
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>10/10 for the service. Nice products. Nice Pricing</p>
+                <p>Trule valuable products. Gave my plants a healthy life. Also the tools and equipments are long lasting.</p>
+                <p>Overall a  best one.</p>
+                <div class="review profile">
+                    <img src="img/customer3.png" alt="">
+                    <h3>Piyush Chauhan</h3>
+                </div>
+            </div>
         </div>
     </section>
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="#" class="logo"><i class='bx bxs-leaf'></i>Quality</a>
+            <p>Jawahar Nagar, Mhow <br> District Indore</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Categories</h2>
+            <a href="#">Fertilizers and Manure</a>
+            <a href="#">Seedlings</a>
+            <a href="#">Equipments nd Tools</a>
+            <a href="#">Pots, containers and others</a>
+
+        </div>
+        <div class="footer-box">
+            <h2>Useful Links</h2>
+            <a href="#">Payment methods</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">My Blog</a>
+            <a href="#">Return Policy</a>
+
+        </div>
+        <div class="footer-box">
+            <h2>Newsletter</h2>
+            <p>Get 10% Discount with <br> Email Newsletter</p>
+            <form action="">
+                <i class='bx bxs-envelope' ></i>
+                <input type="email" name="" id="" placeholder="Enter your email">
+                <i class='bx bx-right-arrow-alt' ></i>
+            </form>
+
+        </div>
+    </section>
+    <div class="copyright" style="text-align: center; padding: 20px;">
+        <p>&#169; ShilpiSonone All Rights Reserved.| Designed by <b>Shilpi</b></p>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 

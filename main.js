@@ -8,3 +8,15 @@ var swiper = new Swiper(".home", {
       prevEl: ".swiper-button-prev"
     },
 });
+
+let chatBot = document.getElementById('chat-bot');
+chatBot.style.display = 'none';
+function toggleChatBot(){
+  console.log("Clicked");
+  if(chatBot.style.display == 'none'){
+    chatBot.style.display = '';
+  }
+  else {
+    chatBot.style.display = 'none';
+  }
+}
